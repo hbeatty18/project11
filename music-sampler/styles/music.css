@@ -1,0 +1,48 @@
+body {
+  margin: 1em;
+  padding: 1em;
+  background-color: #ffffff
+  color: #000000;
+}
+
+h1 {
+  font-family: "Anton", sans-serif;
+  font-size: 2em;
+  text-align: center;
+}
+
+img {
+  border:.5em solid #800000;
+  text-align: center;
+}
+
+.css {
+  border: .5em solid #800000;
+}
+.intro {
+  width: 40em;
+}
+p {
+  font-family: "Crimson Text", serif;
+}
+
+footer {
+  padding:none;
+  margin:none;
+  text-align: center;
+  background-color: #000040;
+  color: #ffffff;
+}
+
+@media screen and (max-width: 670px) {
+    html {
+      padding: 1em;
+      margin: 1em;
+    }
+    img {
+      width: 100%;
+    }
+
+    .intro {
+      width: 15em;
+    }
